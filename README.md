@@ -107,8 +107,7 @@ In this practical we will be creating multiple things using Hardware Modules and
 
                   1. PC --> AR | Source = PC | Dest = AR | numBits = 12
 
-   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/d42da10d-b4f3-447c-8b0c-d5db8bedaf49" />
-
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/9de8f37d-5b86-446c-a1ea-72561f203d99" />
 
          1.2.1. Creating MemoryAccess Microinstructions :
                   To create we will do same as TransferRtoR and select MemoryAccess this time.
