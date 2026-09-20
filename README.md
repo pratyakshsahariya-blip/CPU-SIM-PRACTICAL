@@ -40,17 +40,30 @@ In this practical we will be creating multiple things using Hardware Modules and
    <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/d6550f64-0ef7-42e6-9819-b9f5a1e54c80" />
 
                   Now we will create RAM called RAM (MAIN) of size 4096 X 8 using NEW at the bottom left.
-   
-   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/444a969a-e08b-4369-ac0a-afbb6c56153c" />
 
    <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/08e640da-c9d7-402d-9845-216f0b2a7675" />
 
                   As we can see our RAM is created successfully.
          1.1.2. Creating Registers :
+
+                  We will create register same way as we created RAM.
+
                   There are many kinds of registers but what we will be building today are :
 
-                  1. 
+                  1. PC (Program Counter)       -->    Width = 12 bits
+                  2. AR (Address Register)      -->    Width = 12 bits
+                  3. IR (Instruction Register)  -->    Width = 16 bits
+                  4. AC (Accumulator)           -->    Width = 16 bits
+                  5. DR (Data Register)         -->    Width = 16 bits
+                  6. E (CARRY-BIT)              -->    Width = 1 bits
+                  7. S (Status Register)        -->    Width = 1 bits
+                  8. I (Direct/Indirect)        -->    Width = 1 bits
 
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/ac65f77e-caf0-402a-9da7-b29bf8846e4f" />
+
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/95a9dd70-5862-4a90-91d7-a5d60f2d57ff" />
+
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/6fa90fbc-ed36-472c-8fab-ef74af41c05e" />
 
 
 
