@@ -172,7 +172,13 @@ In this practical we will be creating multiple things using Hardware Modules and
 
    <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/a619c0ee-6a18-4556-be2e-c694bdc8befd" />
       Now we will simply click on OK.
+   
+   1.4. Now we will be moving towards creating Machine Instructions :
+         To create Machine Instructions we will go to Modify Menu at the top left corner and click on Machine Instruction.
 
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/381bb20a-9b2d-44a7-bda2-0775a2b7d9fb" />
+
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/88605738-8c5e-4277-92af-7131ceda286f" />
 
 
 
