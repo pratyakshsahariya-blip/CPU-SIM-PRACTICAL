@@ -31,7 +31,7 @@ In this practical we will be creating multiple things using Hardware Modules and
 
        <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/0804d4f6-43c8-4820-b870-21c447a39051" />
 
-       As we can see we are now inside Hardware Modules and moving towards creating RAM and Registers
+As we can see we are now inside Hardware Modules and moving towards creating RAM and Registers
          1.1.1. Creating RAM (MAIN) :
                  
 
