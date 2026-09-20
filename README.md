@@ -9,7 +9,7 @@ In this practical we will be creating multiple things using Hardware Modules and
    
    The interface will look like this.
 
-   Now we will make a New Text File in it using the File Menu at the top left corner.
+   Now we will make a New Text File in it using the File Menu at the top left corner and clicking on New Text.
 
    <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/e354071f-d1ef-4fff-97d5-7e1f44444ce4" />
 
@@ -25,7 +25,7 @@ In this practical we will be creating multiple things using Hardware Modules and
    As we can see now our New Machine is also created successfully and currently has no content.
 
    1.1. Now we will be moving towards creating Hardware Modules :
-       To create Hardware Modules we will go to Modify Menu at the top left corner.
+       To create Hardware Modules we will go to Modify Menu at the top left corner and click on Hardware Modules.
 
    <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/b152a20f-90c7-4202-8bb1-5cf316481dfe" />
 
@@ -33,7 +33,7 @@ In this practical we will be creating multiple things using Hardware Modules and
 
          As we can see we are now inside Hardware Modules and moving towards creating RAM and Registers.
          1.1.1. Creating RAM (MAIN) :
-                  To create RAM we will go to Types of Modules which is at the top.
+                  To create RAM we will go to Types of Modules which is at the top and select RAM.
                  
    <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/cdf74b7b-95a4-46a7-8b21-5ecd36dca42b" />
 
@@ -72,7 +72,7 @@ In this practical we will be creating multiple things using Hardware Modules and
                There are many kinds of Condition Bit but what we will be creating today are :
 
                1. CARRY-BIT     -->    Register = E
-               2. HALT-BIT      -->    Register = S, TICK HALT
+               2. HALT-BIT      -->    Register = S | TICK HALT
 
    <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/e9db6ebe-5379-4695-9fb0-8b402060c19a" />
 
@@ -94,26 +94,30 @@ In this practical we will be creating multiple things using Hardware Modules and
 
    <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/d2451cb4-37e3-4306-85a6-416e28e31204" />
 
-      Now we will change Indexing for Instruction Format because indexing is done from the left side.
-         To change Indexing we will go to Execute at the top left corner and click on Options.
+   1.2. Now we will be moving towards creating Microinstructions :
+         To create Microinstruction we will go to Modify Menu at the top left corner and click on Microinstructions.
 
-   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/ec0461dc-f4e5-40f2-910a-f1a29bdfbf03" />
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/eb15cca6-f2c5-4694-99da-0ddd4974a34f" />
 
-         Then click on Indexing and select Left.
+         1.2.1. Creating TransferRtoR Microinstructions :
+                  To create TransferRtoR we will go to Types of Microinstructions which is at the top.
+                  We will create Microinstructions using New.
 
-   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/a2a92c66-b603-4a2a-b490-91b699d6accb" />
+                  There are many kinds of TransferRtoR Microinstructions but what we will be creating today are :
 
-         And click on OK.
-   
-   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/54a6f083-059b-4c46-9198-c4e14b468e6a" />
+                  1. PC --> AR | Source = PC | Dest = AR | numBits = 12
 
-
-
-
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/d42da10d-b4f3-447c-8b0c-d5db8bedaf49" />
 
 
+         1.2.1. Creating MemoryAccess Microinstructions :
+                  To create we will do same as TransferRtoR and select MemoryAccess this time.
 
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/84a4e276-428e-4b6e-afcf-156c642badcc" />
 
+                  There are many kinds of MemoryAccess Microinstructions but what we will be creating today are :
+
+                  1. 
 
 
 
