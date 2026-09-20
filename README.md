@@ -180,8 +180,23 @@ In this practical we will be creating multiple things using Hardware Modules and
 
    <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/88605738-8c5e-4277-92af-7131ceda286f" />
 
+         1.4.1. Now we will create Field using Edit Field :
+   
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/3f2f2c51-95f6-4d76-b126-a46df0b8ae5c" />
 
+                  There are different types of Fields but what we will be creating today is :
 
+                  1. OP       | Type = required | NumBits = 4  | Signed = Unsigned
+                  2. ADDR     | Type = required | NumBits = 12 | Signed = Unsigned
+                  3. REGISTER | Type = required | NumBits = 16 | Signed = Unsigned
+
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/979ae292-7e25-41e5-b5df-afe0263ebd2d" />
+   
+            Now we will simply click on OK.
+
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/64d3d920-4fbf-4707-beb9-a0cfb47595e3" />
+
+            Saving everything we did by Ctrl+B
 
 
 
