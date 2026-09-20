@@ -162,12 +162,16 @@ In this practical we will be creating multiple things using Hardware Modules and
 
          3. We will go to Increment and fetch INCR - PC by drag and drop.
 
-   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/fb3e256e-e026-41b2-b85a-c6338d3470f8" />
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/5012ef1f-3eb7-45ab-8d8b-3a823cfa50db" />
 
-         4. We will go to TransferRtoR and fetch PC --> AR by drag and drop.
-         5. We will go to Decode and fetch PC --> AR by drag and drop.
+         4. We will go to TransferRtoR and fetch IR(4-15) --> AR by drag and drop.
 
+         <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/83d15bf2-8e37-4444-bd8d-1d5ca7df6077" />
 
+         5. We will go to Decode and fetch DECODE - IR by drag and drop.
+
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/a619c0ee-6a18-4556-be2e-c694bdc8befd" />
+      Now we will simply click on OK.
 
 
 
