@@ -143,6 +143,8 @@ In this practical we will be creating multiple things using Hardware Modules and
 
    <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/378c12c2-3715-4c0a-ba97-255c376406b9" />
 
+      Now we will simply click on OK.
+
    1.3. Now we will be moving towards creating Fetch Sequence :
          To create Fetch Sequence we will go to Modify Menu at the top left corner and click on Fetch Sequence.
 
@@ -150,8 +152,20 @@ In this practical we will be creating multiple things using Hardware Modules and
 
    <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/43c3b884-cb48-43cd-ad6e-e30ecb584ae5" />
 
+         1. We will go to TransferRtoR and fetch PC --> AR by drag and drop.
 
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/4c5b4ded-7a54-497a-9fa3-f27545159346" />
 
+         2. We will go to Memory and fetch AR[MAIN] --> IR by drag and drop.
+
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/b7f5ecbd-0a4b-4273-9980-f5459c63237e" />
+
+         3. We will go to Increment and fetch INCR - PC by drag and drop.
+
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/fb3e256e-e026-41b2-b85a-c6338d3470f8" />
+
+         4. We will go to TransferRtoR and fetch PC --> AR by drag and drop.
+         5. We will go to Decode and fetch PC --> AR by drag and drop.
 
 
 
