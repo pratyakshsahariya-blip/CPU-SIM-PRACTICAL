@@ -105,18 +105,70 @@ In this practical we will be creating multiple things using Hardware Modules and
 
                   There are many kinds of TransferRtoR Microinstructions but what we will be creating today are :
 
-                  1. PC --> AR | Source = PC | Dest = AR | numBits = 12
+                  1. PC --> AR       | Source = PC | srcStarBit = 0 | Dest = AR | numBits = 12
+                  2. IR(4-15) --> AR | Source = PC | srcStarBit =0  | Dest = AR | numBits = 12
 
-   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/9de8f37d-5b86-446c-a1ea-72561f203d99" />
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/5384a7ea-89fe-4a33-bfaa-b5ecb208e5d0" />
 
-         1.2.1. Creating MemoryAccess Microinstructions :
+         1.2.2. Creating MemoryAccess Microinstructions :
                   To create we will do same as TransferRtoR and select MemoryAccess this time.
 
    <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/84a4e276-428e-4b6e-afcf-156c642badcc" />
 
-                  There are many kinds of MemoryAccess Microinstructions but what we will be creating today are :
+                  There are many kinds of MemoryAccess Microinstructions but what we will be creating today is :
 
-                  1. 
+                  1. AR[MAIN] --> IR | Memory = RAM(MAIN) | Data = IR | Address = AR
+
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/5a42bb20-a592-4ed2-86fd-dfba75526231" />
+
+         1.2.3. Creating Increment Microinstructions :
+                  To create we will do same as MemoryAccess and select Increment this time.
+
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/9944a07e-4826-4caf-b14d-2306da79f3e5" />
+
+                  There are many kinds of Increment Microinstructions but what we will be creating today is :
+
+                  1. INCR - PC | Register = PC | Delta = 1
+
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/ebeb982f-e05d-43a8-af14-84d764f7e42d" />
+
+         1.2.4. Creating Decode Microinstructions :
+                  To create we will do same as Increment and select Decode this time
+
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/7f2f68d2-4ee8-4f2b-9e32-8a36612a6c68" />
+
+                  There are many kinds of Decode Microinstructions but what we will be creating today is :
+
+                  1. DECODE - IR | IR = IR
+
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/378c12c2-3715-4c0a-ba97-255c376406b9" />
+
+   1.3. Now we will be moving towards creating Fetch Sequence :
+         To create Fetch Sequence we will go to Modify Menu at the top left corner and click on Fetch Sequence.
+
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/3a8a317e-b00c-46f2-b70c-3534e9c5c68e" />
+
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/43c3b884-cb48-43cd-ad6e-e30ecb584ae5" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
