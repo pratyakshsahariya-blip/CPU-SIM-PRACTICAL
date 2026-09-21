@@ -307,11 +307,9 @@ In this practical we will be creating multiple things using Hardware Modules and
 
             5. ADD --> Opcode = 0x2 | Fields = OP + ADDR
 
-   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/500c9654-db1a-483e-b404-1cd74e12db9f" />
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/9da1e8b3-ea66-4b54-b567-45e94febab1e" />
 
                5.1. Implementation --> MemoryAccess
-
-   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/a9350f77-c1a8-4f82-bceb-fae7db16f159" />
   
                      AR [MAIN] --> DR | Direction = read | Data = DR | Address = AR
    
