@@ -168,7 +168,7 @@ In this practical we will be creating multiple things using Hardware Modules and
 
          4. We will go to TransferRtoR and fetch IR(0-11) --> AR by drag and drop.
 
-   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/83d15bf2-8e37-4444-bd8d-1d5ca7df6077" />
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/0bf6c9af-8060-4a88-b2eb-bca85f424c52" />
 
          5. We will go to Decode and fetch DECODE - IR by drag and drop.
 
