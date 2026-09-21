@@ -2,6 +2,7 @@
 In this practical we will be creating multiple things using Hardware Modules and Microinstructions :
 
 1. Base Machine :
+   We will first create our Base Machine so that, we don't have type Hardware Modules, Registers, Microinstructions, etc again and again for our practicals.
    
    To create our Base Machine we will first open Cpusim4.bat
    
@@ -198,7 +199,10 @@ In this practical we will be creating multiple things using Hardware Modules and
 
             Saving everything we did by Ctrl+B
 
+2. Writing an assembly program to simulate ADD operation on two user-entered numbers :
+   We will first save our Base Machine using File Menu at the top left and click on Save Machine As (Ctrl+Shift+B), because we want to make new program and keep our original Base Machine saved for other projects [Note : Don't overwrite programs on the Base Machine]. 
 
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/e93fccdb-5ce9-4e9a-b954-278ce3664d3d" />
 
 
 
