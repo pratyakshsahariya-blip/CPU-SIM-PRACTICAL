@@ -164,7 +164,7 @@ In this practical we will be creating multiple things using Hardware Modules and
 
          3. We will go to Increment and fetch INCR - PC by drag and drop.
 
-   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/5012ef1f-3eb7-45ab-8d8b-3a823cfa50db" />
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/be11dd31-98c7-42cc-afc8-992952386e4b" />
 
          4. We will go to TransferRtoR and fetch IR(0-11) --> AR by drag and drop.
 
