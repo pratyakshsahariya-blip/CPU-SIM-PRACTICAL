@@ -266,10 +266,16 @@ In this practical we will be creating multiple things using Hardware Modules and
    
             Now we will simply click on OK.
 
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/593168b6-b219-49fe-ac43-53a75361a6b6" />
 
+            As we can see INP and OUT have turned green from black this means they are created successfully.
 
+            3. HLT --> Opcode = 0xE001 | Field = Register
 
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/e4d980dd-e9cc-46c3-a47e-4be3c61094d6" />
 
+               2.1. Implementation --> setCondBit
+                     HALT | Bit = HALT-BIT | Value = 1
 
 
 
