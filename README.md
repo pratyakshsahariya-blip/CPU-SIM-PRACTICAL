@@ -243,9 +243,11 @@ In this practical we will be creating multiple things using Hardware Modules and
             There are different types of Instructions but what we will be creating today are :
 
             1. INP --> Opcode = 0xF800 | Field = Register
-               1.1. Implementation --> IO
-                     INPUT  | Direction = Input  
-                     
+               1.1. Implementation --> IO + END
+                     INPUT  | Direction = Input
+ 
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/1c3ba223-804b-438a-bcc5-a14010d9c0a3" />
+               
    <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/fdb34cee-98cb-4769-a649-d681d3bd5b3d" />
 
    <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/191cd134-e14f-449e-8bf3-862a3de1063b" />
@@ -254,8 +256,15 @@ In this practical we will be creating multiple things using Hardware Modules and
 
    <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/e43a8019-2e47-471d-9357-a12ce6636219" />
 
-                     OUTPUT | Direction = Output
+            2. OUT --> Opcode = 0xF400 | Field = Register
+               2.1. Implementation --> IO + END 
+                     OUTPUT | Direction = Output (Already created above)
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/857e460e-7424-4fbe-9305-dc9474d87568" />
 
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/18cd834f-c8f3-43e7-b398-cb67771fa4b3" />
+
+   
+            Now we will simply click on OK.
 
 
 
