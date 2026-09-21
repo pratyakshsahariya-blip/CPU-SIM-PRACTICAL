@@ -243,7 +243,7 @@ In this practical we will be creating multiple things using Hardware Modules and
             There are different types of Instructions but what we will be creating today are :
 
             1. INP --> Opcode = 0xF800 | Field = Register
-               1.1. Implementation --> IO + END
+               1.1. Implementation --> IO
                      INPUT  | Direction = Input
  
    <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/1c3ba223-804b-438a-bcc5-a14010d9c0a3" />
@@ -257,7 +257,7 @@ In this practical we will be creating multiple things using Hardware Modules and
    <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/e43a8019-2e47-471d-9357-a12ce6636219" />
 
             2. OUT --> Opcode = 0xF400 | Field = Register
-               2.1. Implementation --> IO + END 
+               2.1. Implementation --> IO
                      OUTPUT | Direction = Output (Already created above)
    <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/857e460e-7424-4fbe-9305-dc9474d87568" />
 
@@ -276,10 +276,15 @@ In this practical we will be creating multiple things using Hardware Modules and
 
                2.1. Implementation --> setCondBit
                      HALT | Bit = HALT-BIT | Value = 1
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/4fa72b5e-f0cb-481c-98cc-f0069f06fd2a" />
 
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/2d352f25-a803-487f-9237-6293a3f54277" />
 
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/6d748ee7-5c77-4c2f-a492-05a96b9e92a0" />
 
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/be5eede4-c937-4ec4-a803-42e5ef01833b" />
 
+            As we can see HALT has turned green from black this means it is created successfully.
 
 
 
