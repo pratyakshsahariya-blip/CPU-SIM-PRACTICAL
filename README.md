@@ -42,7 +42,7 @@ In this practical we will be creating multiple things using Hardware Modules and
 
                   Now we will create RAM called RAM (MAIN) of size 4096 X 16 using NEW at the bottom left.
 
-   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/eb807720-4e0d-4ef4-a40f-573442fd9701" />
+   
 
                   As we can see our RAM is created successfully.
          1.1.2. Creating Registers :
@@ -106,10 +106,10 @@ In this practical we will be creating multiple things using Hardware Modules and
 
                   There are many kinds of TransferRtoR Microinstructions but what we will be creating today are :
 
-                  1. PC --> AR       | Source = PC | srcStarBit = 0 | Dest = AR | numBits = 12
-                  2. IR(4-15) --> AR | Source = PC | srcStarBit =0  | Dest = AR | numBits = 12
+                  1. PC --> AR       | Source = PC | srcStarBit = 0  | Dest = AR  | numBits = 12
+                  2. IR(0-11) --> AR | Source = PC | srcStarBit = 0  | Dest = AR | numBits = 12
 
-   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/5384a7ea-89fe-4a33-bfaa-b5ecb208e5d0" />
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/a2aaea3f-3dc8-4b0b-affc-350accc01fb9" />
 
          1.2.2. Creating MemoryAccess Microinstructions :
                   To create we will do same as TransferRtoR and select MemoryAccess this time.
@@ -165,7 +165,7 @@ In this practical we will be creating multiple things using Hardware Modules and
 
    <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/5012ef1f-3eb7-45ab-8d8b-3a823cfa50db" />
 
-         4. We will go to TransferRtoR and fetch IR(4-15) --> AR by drag and drop.
+         4. We will go to TransferRtoR and fetch IR(0-11) --> AR by drag and drop.
 
    <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/83d15bf2-8e37-4444-bd8d-1d5ca7df6077" />
 
@@ -304,14 +304,14 @@ In this practical we will be creating multiple things using Hardware Modules and
 
                      As we can see STA has turned green from black this means it is created successfully.
 
-            5. ADD --> Opcode = 0x2 | Fields = OP + REGISTER
+            5. ADD --> Opcode = 0x2 | Fields = OP + ADDR
 
    <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/500c9654-db1a-483e-b404-1cd74e12db9f" />
 
                5.1. Implementation --> MemoryAccess
 
-   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/e8447d5a-15ce-4773-b077-f2b227a5c6aa" />   
-
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/a9350f77-c1a8-4f82-bceb-fae7db16f159" />
+  
                      AR [MAIN] --> DR | Direction = read | Data = DR | Address = AR
    
    <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/78c05791-3670-4835-97cd-3f5bb5262686" />
