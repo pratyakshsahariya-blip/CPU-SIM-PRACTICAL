@@ -185,7 +185,7 @@ In this practical we will be creating multiple things using Hardware Modules and
    
    <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/3f2f2c51-95f6-4d76-b126-a46df0b8ae5c" />
 
-                  There are different types of Fields but what we will be creating today is :
+                  There are different types of Fields but what we will be creating today are :
 
                   1. OP       | Type = required | NumBits = 4  | Signed = Unsigned
                   2. ADDR     | Type = required | NumBits = 12 | Signed = Unsigned
@@ -234,7 +234,73 @@ In this practical we will be creating multiple things using Hardware Modules and
       2.2. Now we will create Machine Instructions based on our text file :
             To create Machine Instructions we will go to Modify Menu at the top left corner and click on Machine Instruction.
 
-   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/381bb20a-9b2d-44a7-bda2-0775a2b7d9fb" />
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/0ea4bbb2-6eda-445f-bc8b-fac6622f57a9" />
+
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/7c3ea58b-bc59-44fd-a34a-4dd088c5ddea" />
+
+            We have already created the Fields
+            Now we will make Instructions using New at the bottom left. 
+            There are different types of Instructions but what we will be creating today are :
+
+            1. INP --> Opcode = 0xF800 | Field = Register
+               1.1. Implementation --> IO
+                     INPUT  | Direction = Input  
+                     OUTPUT | Direction = Output
+   
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/fdb34cee-98cb-4769-a649-d681d3bd5b3d" />
+
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/191cd134-e14f-449e-8bf3-862a3de1063b" />
+
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/6a381add-8a06-48e6-8671-65f79a868b62" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
