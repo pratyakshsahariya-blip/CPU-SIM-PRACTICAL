@@ -245,16 +245,16 @@ In this practical we will be creating multiple things using Hardware Modules and
             1. INP --> Opcode = 0xF800 | Field = Register
                1.1. Implementation --> IO
                      INPUT  | Direction = Input  
-                     OUTPUT | Direction = Output
-   
+                     
    <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/fdb34cee-98cb-4769-a649-d681d3bd5b3d" />
 
    <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/191cd134-e14f-449e-8bf3-862a3de1063b" />
 
    <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/6a381add-8a06-48e6-8671-65f79a868b62" />
 
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/e43a8019-2e47-471d-9357-a12ce6636219" />
 
-
+                     OUTPUT | Direction = Output
 
 
 
