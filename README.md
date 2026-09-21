@@ -172,7 +172,8 @@ In this practical we will be creating multiple things using Hardware Modules and
 
          5. We will go to Decode and fetch DECODE - IR by drag and drop.
 
-   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/a619c0ee-6a18-4556-be2e-c694bdc8befd" />
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/3c5eb77e-fbda-4c83-908b-bfdd8b41b7fb" />
+
       Now we will simply click on OK.
    
    1.4. Now we will be moving towards creating Machine Instructions :
