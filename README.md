@@ -156,7 +156,7 @@ In this practical we will be creating multiple things using Hardware Modules and
 
          1. We will go to TransferRtoR and fetch PC --> AR by drag and drop.
 
-   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/4c5b4ded-7a54-497a-9fa3-f27545159346" />
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/41a92b95-8f0b-4a0d-b33f-36647888405f" />
 
          2. We will go to Memory and fetch AR[MAIN] --> IR by drag and drop.
 
