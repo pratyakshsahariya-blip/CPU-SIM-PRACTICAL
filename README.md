@@ -200,9 +200,48 @@ In this practical we will be creating multiple things using Hardware Modules and
             Saving everything we did by Ctrl+B
 
 2. Writing an assembly program to simulate ADD operation on two user-entered numbers :
-   We will first save our Base Machine using File Menu at the top left and click on Save Machine As (Ctrl+Shift+B), because we want to make new program and keep our original Base Machine saved for other projects [Note : Don't overwrite programs on the Base Machine]. 
+   We will first save our Base Machine using File Menu at the top left and click on Save Machine As (Ctrl+Shift+B), because we want to make new program and keep our original Base Machine saved and unmodified for other projects [Note : Don't overwrite programs on the Base Machine]. 
 
    <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/e93fccdb-5ce9-4e9a-b954-278ce3664d3d" />
+
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/4b8ab7a4-90b4-460a-bb80-a3548235609f" />
+
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/30a39627-b663-490b-8bee-5b0bf8a78e1b" />
+
+   As we can see our is now successfully saved as Practical-1-ADD.cpu
+
+   2.1. Now we will write in our text file what we have to do :
+         1. START: INT        -->   Instruction to take input of 1st number.
+         2. STA NUM           -->   Instruction to store the 1st number in side the memory (variale).
+         3. INP               -->   Instruction to take input of 2nd number.
+         4. ADD NUM           -->   Instruction to add both the numbers.
+         5. OUT               -->   Instruction to show output.
+         6. HLT               -->   Instruction to halt the program.
+         7. NUM: .data 1 0    -->   Instruction to declare/initialise our variable (Size = 1 byte | Initialise = 0).
+
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/bbc54124-8629-4268-94b2-2ef0360e5d25" />
+   
+       We will save this Text File using File Menu at the top left and click on Save Text (Ctrl+S) [In .a extention]. 
+
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/c6e758a3-6d65-417a-a3ce-620bfddf1098" />
+
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/231503bb-cbad-41eb-b40f-fe58767b3796" />
+
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/21a014cf-a25b-4548-a450-30c96d0f8bc9" />
+
+      As we can see our text file is saved successfully as ADD.a .
+
+      2.2. Now we will create Machine Instructions based on our text file :
+            To create Machine Instructions we will go to Modify Menu at the top left corner and click on Machine Instruction.
+
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/381bb20a-9b2d-44a7-bda2-0775a2b7d9fb" />
+
+
+
+
+
+
+
 
 
 
