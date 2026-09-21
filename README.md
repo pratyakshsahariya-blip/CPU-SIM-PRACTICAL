@@ -42,8 +42,7 @@ In this practical we will be creating multiple things using Hardware Modules and
 
                   Now we will create RAM called RAM (MAIN) of size 4096 X 16 using NEW at the bottom left.
 
-   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/e21df5e7-d80c-4f38-a6e6-54727a7f0227" />
-
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/3d2875bb-db3f-4d53-a249-089be527abe2" />
 
                   As we can see our RAM is created successfully.
          1.1.2. Creating Registers :
