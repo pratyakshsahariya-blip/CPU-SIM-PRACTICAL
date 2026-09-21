@@ -274,7 +274,7 @@ In this practical we will be creating multiple things using Hardware Modules and
 
    <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/e4d980dd-e9cc-46c3-a47e-4be3c61094d6" />
 
-               2.1. Implementation --> setCondBit
+               3.1. Implementation --> setCondBit
                      HALT | Bit = HALT-BIT | Value = 1
    <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/4fa72b5e-f0cb-481c-98cc-f0069f06fd2a" />
 
@@ -286,22 +286,55 @@ In this practical we will be creating multiple things using Hardware Modules and
 
             As we can see HALT has turned green from black this means it is created successfully.
 
+            4. STA --> Opcode = 0x6 | Fields = OP + ADDR
+   
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/98decc99-23b4-4dee-9adf-5a3640f26d65" />
 
+               4.1. Implementation --> MemoryAccess
+   
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/e8447d5a-15ce-4773-b077-f2b227a5c6aa" />
 
+                     AC --> AR [MAIN] | Direction = Write | Data = AC | Address = AR
 
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/6e2bf4c1-dac4-42ba-85e1-061a8b8da566" />
 
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/992c5cbf-b302-473c-a746-fb314248279a" />
 
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/6207a109-ad10-41d0-85ea-35bbffd31808" />
 
+                     As we can see STA has turned green from black this means it is created successfully.
 
+            5. ADD --> Opcode = 0x2 | Fields = OP + REGISTER
 
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/500c9654-db1a-483e-b404-1cd74e12db9f" />
 
+               5.1. Implementation --> MemoryAccess
 
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/e8447d5a-15ce-4773-b077-f2b227a5c6aa" />   
 
+                     AR [MAIN] --> DR | Direction = read | Data = DR | Address = AR
+   
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/78c05791-3670-4835-97cd-3f5bb5262686" />
 
+               5.2. Implementation --> Arithmetic
 
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/e88edae2-0899-42f5-bc7c-1c002e6630de" />
 
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/1424d34c-16e4-45b2-b296-b64a86424afa" />
 
+                     AC + DR --> AC | Type = ADD | Source1 = AC | Source2 = DR | Destination = AC | carryBit = CARRY-BIT
 
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/16381c96-0b35-4df9-bf13-3cf4e15355e8" />
+
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/344c0789-7427-4b2d-b5f8-970d8faf2fc4" />
+
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/e54e0b18-00a6-4f26-af05-b6acd190acdd" />
+
+                     As we can see ADD has turned green from black this means it is created successfully.
+   Now we will Execute the code using the Clear, Assemble, Load & Run approach.
+      To run it we will go to the Execute Menu at the top left and select Clear, Assemble, Load & Run (Ctrl+G).
+
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/d243d2b2-9497-4a78-b018-9e09a971228a" />
 
 
 
