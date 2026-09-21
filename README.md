@@ -126,7 +126,7 @@ In this practical we will be creating multiple things using Hardware Modules and
          1.2.3. Creating Increment Microinstructions :
                   To create we will do same as MemoryAccess and select Increment this time.
 
-   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/9944a07e-4826-4caf-b14d-2306da79f3e5" />
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/90280ae8-0e91-4a1c-b991-18d1fc525832" />
 
                   There are many kinds of Increment Microinstructions but what we will be creating today is :
 
