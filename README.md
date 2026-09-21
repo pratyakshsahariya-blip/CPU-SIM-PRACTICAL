@@ -160,7 +160,7 @@ In this practical we will be creating multiple things using Hardware Modules and
 
          2. We will go to Memory and fetch AR[MAIN] --> IR by drag and drop.
 
-   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/b7f5ecbd-0a4b-4273-9980-f5459c63237e" />
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/5ad804b0-279e-437f-8e20-f82e07c08cb4" />
 
          3. We will go to Increment and fetch INCR - PC by drag and drop.
 
