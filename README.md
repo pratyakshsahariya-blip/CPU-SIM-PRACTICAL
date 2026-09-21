@@ -335,46 +335,10 @@ In this practical we will be creating multiple things using Hardware Modules and
 
    <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/d243d2b2-9497-4a78-b018-9e09a971228a" />
 
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/8afc2094-15b0-4023-a078-8d3aa91e5df2" />
 
+   <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/08d7f573-0c14-440e-a394-e67ce3eab41a" />
 
+   Now as we can see we our inputs were 5 and 7, and we got 12 as our output.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   Hence our code works perfectly and we have now successfully created program to simulate ADD operation.
