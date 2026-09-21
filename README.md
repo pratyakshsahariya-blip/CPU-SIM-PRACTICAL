@@ -1,4 +1,4 @@
-# CPU-SIM-PRACTICAL
+# CSA-CPU-SIM-PRACTICAL
 In this practical we will be creating multiple things using Hardware Modules and Microinstructions :
 
 1. Base Machine :
